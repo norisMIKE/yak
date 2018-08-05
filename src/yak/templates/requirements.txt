@@ -1,0 +1,4 @@
+aiohttp
+{% if rest %}aiohttp_cors
+{% endif %}aiohttp_route
+{{ database }}[sa]

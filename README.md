@@ -23,6 +23,12 @@ After activating a virtual env, instal YAK in editable mode:
 pip install -e .
 ```
 
+## Build
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 python3 setup.py bdist_wheel
+```
+
 ## TODO
 
 - [ ] Travis integration for automatic releases
